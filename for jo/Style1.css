@@ -1,0 +1,391 @@
+*{
+margin: 0%;
+padding: 0%
+}
+html{
+width: 100%;
+height: 100%;
+}
+body{
+background: linear-gradient(45deg, black, blue);
+background-repeat: no-repeat;
+}
+
+.div3{
+padding: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 40px; 
+font-size: 40px;
+font-family: Showcard Gothic;
+color: white;
+transition: 1s;
+animation-name: title;
+animation-duration: 3s;
+animation-delay: 4s;
+}
+@keyframes title{
+0%{color: white;}
+25%{color: cyan;}
+50%{color: yellow;}
+75%{color: magenta;}
+100%{color: white;}
+}
+.tab1{
+width: 100%;
+border-spacing: 90px 15px;
+padding: 0px;
+}
+.tab1 td{
+width: 300px;
+}
+.div1{
+padding: 25px;
+border-radius: 50px;
+margin-right: 50px;
+margin-left: 50px;
+height: 420px;
+box-shadow: 0 0 40px black;
+font-family: Comic Sans MS;
+text-align: center;
+align-items: center;
+transition: 2s;
+background-color: blue;
+}
+.div1:hover{
+cursor: default;
+background-color: rgb(0,180,255);
+transition: 2s;
+}
+.div2{
+padding-top: 30px;
+padding-bottom: 30px;
+border-radius: 50px;
+background-color: white;
+box-shadow: 0 6px 6px 3px black;
+transition: 1s;
+font-family: Comic Sans MS;
+font-size: 25px;
+margin: 0px;
+width: 300px;
+}
+.div2:hover{
+cursor: pointer;
+background-color: rgb(0,0,255);
+color: white;
+transition: 1s;
+}
+.button{
+    display: flex;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 50px;
+background-color: white;
+box-shadow: 0 6px 6px 3px black;
+transition: 1s;
+font-family: Comic Sans MS;
+font-size: 15px;
+margin: 10px;
+width: 100px;
+}
+.button:hover{
+cursor: pointer;
+background-color: rgb(0,0,255);
+color: white;
+transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tab2{
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: 600px;
+border-spacing: 20px;
+}
+.tab2 .td11{
+width: 30%;
+border-radius: 50px;
+background-image: url(1462-environmental-wallpaper-hd.jpg);
+background-size: cover;
+background-origin: border-box;
+box-shadow: 0 0 40px black;
+padding: 40px;
+color: white;
+}
+.tab2 .td12{
+width: fit-content;
+height: 60px;
+border-radius: 50px;
+background-color: blue;
+box-shadow: 0 0 40px black;
+padding: 20px;
+
+}
+.tab2 .td12 table{
+width: 100%;
+margin: 0px;
+}
+.t1d{
+width: 70px;
+}
+.tab2 .td12:hover{
+cursor: default;
+background-color: rgb(0,180,255);
+transition: 1s;
+}
+.tab2 .td13{
+width: 70%;
+border-radius: 50px;
+background-image: url(92756-ecology-high-resolution-wallpapers-collection.png);
+background-origin: border-box;
+background-size: cover;
+background-repeat: no-repeat;
+box-shadow: 0 0 40px black;
+padding: 40px;
+font-size: 40px;
+font-family: Comic Sans MS;
+color: rgb(200,0,255);
+text-align: center;
+}
+.div4{
+border-radius: 50px;
+text-align: center;
+font-family: Comic Sans MS;
+font-size: 30px;
+width: 70px;
+margin-left: 30%;
+margin-right: 25%;
+color: blue;
+padding: 10px;
+box-shadow: 0 6px 6px 3px black;
+background-color: white;
+
+}
+.div4:hover{
+cursor: default;
+box-shadow: 0 6px 6px 3px black, inset 0 0px 3px 3px blue;
+transition: 0.5s;
+}
+.div5{
+border-radius: 50px;
+text-align: center;
+font-family: Comic Sans MS;
+font-size: 30px;
+width: 70px;
+margin-left: 25%;
+margin-right: 25%;
+color: blue;
+padding: 5px;
+box-shadow: 0 6px 6px 3px black;
+background-color: white;
+
+}
+.div5:hover{
+cursor: default;
+box-shadow: 0 6px 6px 3px black, inset 0 0px 3px 3px blue;
+transition: 0.5s;
+}
+.td12 table tr td img{
+height: 30px;
+width: 30px;
+}
+.div6{
+border-radius: 50px;
+background-color: white;
+width: 100%;
+padding: 15px;
+box-shadow: 0 6px 6px 3px black;
+}
+.td11p1{
+font-size: 40px;
+font-family: Showcard Gothic;
+animation-name: title;
+animation-duration: 3s;
+animation-delay: 4s;
+}
+@keyframes title{
+0%{color: white;}
+25%{color: cyan;}
+50%{color: yellow;}
+75%{color: magenta;}
+100%{color: white;}
+}
+.td11p2{
+font-size: 30px;
+font-family: Comic Sans MS;
+}
+.td11p3{
+font-size: 15px;
+font-family: Comic Sans MS;
+text-align: left;
+color: blue;
+}
+.td11p3 li:hover{
+color: white;
+}
+.li{
+border-radius: 10px;
+cursor: pointer;
+padding: 2px;
+color: white;
+transition: 0.5s;
+margin-top: 5px;
+margin-bottom: 0px;
+
+}
+.li:hover{
+border-radius: 10px;
+cursor: pointer;
+color: white;
+transition: 0.5s;
+background-color: rgb(0,0,255);
+box-shadow: 0 6px 6px 3px black;
+}
+.tab2 .td13a{
+width: 70%;
+border-radius: 50px;
+background-color: none;
+background-repeat: no-repeat;
+box-shadow: 0 0 40px black;
+padding: 1px;
+font-family: Comic Sans MS;
+color: white;
+text-align: justify;
+
+}
+
+.tab2 .td13aa{
+width: fit-content;
+height: 380px;
+border-radius: 50px;
+background-color: rgb(0,0,255);
+background-repeat: no-repeat;
+box-shadow: 0 0 40px black;
+padding: 30px;
+font-size: 15px;
+font-family: Comic Sans MS;
+color: white;
+text-align: justify;
+overflow: auto;
+margin: 0px;
+transition: 0.5s;
+}
+.tab2 .td13aa:hover{
+background-color: rgb(0,200,255);
+transition: 1s;
+color: rgb(0,0,0);
+
+}
+
+
+
+
+
+
+.tab2 .td11phy{
+width: 30%;
+border-radius: 50px;
+background-image: url(261925-physics-wallpaper-1920x1080.jpg);
+background-size: cover;
+background-origin: border-box;
+box-shadow: 0 0 40px black;
+padding: 40px;
+color: white;
+}
+.tab2 .td13phy{
+width: 70%;
+border-radius: 50px;
+background-image: url(376073-minimalism-blue-background-glass-ball-ropes-broken-sphere.jpg);
+background-origin: border-box;
+background-size: cover;
+background-repeat: no-repeat;
+box-shadow: 0 0 40px black;
+padding: 40px;
+font-size: 40px;
+font-family: Comic Sans MS;
+color: rgb(200,0,255);
+text-align: center;
+}
+.tab2 .td11che{
+width: 30%;
+border-radius: 50px;
+background-image: url(364806-organic-chemistry-wallpaper-science-chemistry-organic-chemistry.jpg);
+background-size: cover;
+background-origin: border-box;
+box-shadow: 0 0 40px black;
+padding: 40px;
+color: white;
+}
+.tab2 .td13che{
+width: 70%;
+border-radius: 50px;
+background-image: url(155235-chemistry-wallpaper.jpg);
+background-origin: border-box;
+background-size: cover;
+background-repeat: no-repeat;
+box-shadow: 0 0 40px black;
+padding: 40px;
+font-size: 40px;
+font-family: Comic Sans MS;
+color: rgb(200,0,255);
+text-align: center;
+}
+.tab2 .td11ast{
+width: 30%;
+border-radius: 50px;
+background-image: url(168411-astronomy-wallpaper-hd-download-3d-hd-colour-design-galaxy1.jpg);
+background-size: cover;
+background-origin: border-box;
+box-shadow: 0 0 40px black;
+padding: 40px;
+color: white;
+}
+.tab2 .td13ast{
+width: 70%;
+border-radius: 50px;
+background-image: url(168411-astronomy-wallpaper-hd-download-3d-hd-colour-design-galaxy.jpg);
+background-origin: border-box;
+background-size: cover;
+background-repeat: no-repeat;
+box-shadow: 0 0 40px black;
+padding: 40px;
+font-size: 40px;
+font-family: Comic Sans MS;
+color: rgb(200,0,255);
+text-align: center;
+}
+.tab2 .td11i{
+width: 30%;
+border-radius: 50px;
+background-image: url(a.jpg);
+background-size: cover;
+background-origin: border-box;
+box-shadow: 0 0 40px black;
+padding: 40px;
+color: white;
+}
+.tab2 .td13i{
+width: 70%;
+border-radius: 50px;
+background-image: url(b.jpg);
+background-origin: border-box;
+background-size: cover;
+background-repeat: no-repeat;
+box-shadow: 0 0 40px black;
+padding: 40px;
+font-size: 40px;
+font-family: Comic Sans MS;
+color: rgb(200,0,255);
+text-align: center;
+}
